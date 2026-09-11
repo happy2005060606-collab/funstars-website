@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Funstars</title>
+  <meta name="description" content="Contact Funstars about digital learning platforms and education technology solutions for students, teachers, schools, and partners.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Funstars home">
+        <span class="logo-mark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3.2l3.05 7.48 8.05.66-6.16 5.22 1.88 7.85L16 20.18 9.18 24.41l1.88-7.85-6.16-5.22 8.05-.66L16 3.2z" fill="#2F6BFF"/></svg></span>
+        <span class="logo-text"><strong>Funstars</strong><small>Learn Further. Achieve More.</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="products.html">Explore Our Platforms</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact Us</span>
+        <h1>Let’s talk about digital learning platforms</h1>
+        <p>Interested in our digital learning platforms or education technology solutions? We welcome inquiries from students, teachers, schools, education providers, and potential business partners.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="contact-card">
+          <div class="company-identity">
+            <h2>FUNSTARS LLC</h2>
+            <p>Education Technology Company</p>
+            <p>United States</p>
+            <p><a href="mailto:contact@funstarslearning.com">contact@funstarslearning.com</a></p>
+          </div>
+        </aside>
+
+        <div class="form-card">
+          <h2>Send a message</h2>
+          <p class="lede" style="margin-bottom:18px">Tell us about your school, tutoring organization, or learning needs and we will follow up.</p>
+          <div class="form-success" hidden tabindex="-1">
+            <h3>Thank you for your message.</h3>
+            <p>Your email app should open with the inquiry addressed to <a href="mailto:contact@funstarslearning.com">contact@funstarslearning.com</a>. If it does not, please send your message to that address directly.</p>
+          </div>
+          <form class="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+                <span class="field-error" data-error-for="name"></span>
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+                <span class="field-error" data-error-for="email"></span>
+              </div>
+              <div class="form-field">
+                <label for="organization">Organization <span style="font-weight:500;color:var(--muted)">(optional)</span></label>
+                <input id="organization" name="organization" type="text" autocomplete="organization">
+              </div>
+              <div class="form-field">
+                <label for="role">I am a</label>
+                <select id="role" name="role" required>
+                  <option value="">Select one</option>
+                  <option>Student</option>
+                  <option>Teacher</option>
+                  <option>Education provider</option>
+                  <option>Business partner</option>
+                  <option>Other</option>
+                </select>
+                <span class="field-error" data-error-for="role"></span>
+              </div>
+              <div class="form-field full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="field-error" data-error-for="message"></span>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit" style="margin-top:8px">Contact Us</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="index.html" aria-label="Funstars home">
+        <span class="logo-mark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3.2l3.05 7.48 8.05.66-6.16 5.22 1.88 7.85L16 20.18 9.18 24.41l1.88-7.85-6.16-5.22 8.05-.66L16 3.2z" fill="#2F6BFF"/></svg></span>
+        <span class="logo-text"><strong>Funstars</strong><small>Learn Further. Achieve More.</small></span>
+      </a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+      <div class="copyright">© 2026 Funstars LLC.<br>All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
